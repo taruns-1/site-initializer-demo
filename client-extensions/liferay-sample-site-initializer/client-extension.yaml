@@ -1,0 +1,13 @@
+liferay-sample-site-initializer:
+    name: Liferay Sample Site Initializer Demo
+    oAuthApplicationHeadlessServer: liferay-sample-site-initializer-demo
+    siteExternalReferenceCode: LIFERAY_SAMPLE
+    siteName: EMEA Tech Talks
+    type: siteInitializer
+liferay-sample-site-initializer-demo:
+    .serviceAddress: localhost:8080
+    .serviceScheme: http
+    name: Liferay Sample Site Initializer OAuth Application Headless Server
+    scopes:
+        -   Liferay.Headless.Site.everything
+    type: oAuthApplicationHeadlessServer

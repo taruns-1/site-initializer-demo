@@ -1,0 +1,11 @@
+[
+	{
+		"groups": [
+			{
+				"groupName": "Liferay-Developer",
+				"groupType": "UserGroups"
+			}
+		],
+		"roleName": "Content Importer"
+	}
+]

@@ -1,0 +1,12 @@
+[
+	{
+		"actions": [
+		],
+		"name": "Content Importer",
+		"name_i18n": {
+			"en-US": "Content Importer"
+		},
+		"scope": 1,
+		"type": 2
+	}
+]

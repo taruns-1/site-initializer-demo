@@ -1,0 +1,10 @@
+[
+	{
+		"actionIds": [
+			"VIEW"
+		],
+		"resourceName": "com.liferay.batch.planner.model.BatchPlannerPlan",
+		"roleName": "Content Importer",
+		"scope": 1
+	}
+]

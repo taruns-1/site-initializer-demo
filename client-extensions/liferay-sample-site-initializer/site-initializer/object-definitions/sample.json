@@ -1,0 +1,75 @@
+{
+	"accountEntryRestricted": false,
+	"accountEntryRestrictedObjectFieldName": "",
+	"active": true,
+	"defaultLanguageId": "en_US",
+	"enableCategorization": true,
+	"enableIndexSearch": true,
+	"enableLocalization": true,
+	"externalReferenceCode": "sample",
+	"label": {
+		"en_US": "Sample"
+	},
+	"name": "Sample",
+	"objectFields": [
+		{
+			"DBType": "String",
+			"businessType": "Text",
+			"defaultValue": "null",
+			"externalReferenceCode": "sample-name",
+			"indexed": true,
+			"indexedAsKeyword": true,
+			"indexedLanguageId": "",
+			"label": {
+				"en_US": "Name"
+			},
+			"localized": false,
+			"name": "name",
+			"objectFieldSettings": [
+			],
+			"readOnly": "false",
+			"readOnlyConditionExpression": "",
+			"required": false,
+			"state": false,
+			"system": false,
+			"type": "String",
+			"unique": false
+		},
+		{
+			"DBType": "String",
+			"businessType": "Text",
+			"defaultValue": "null",
+			"externalReferenceCode": "sample-phone-number",
+			"indexed": true,
+			"indexedAsKeyword": true,
+			"indexedLanguageId": "",
+			"label": {
+				"en_US": "Phone Number"
+			},
+			"localized": false,
+			"name": "phoneNumber",
+			"objectFieldSettings": [
+			],
+			"readOnly": "false",
+			"readOnlyConditionExpression": "",
+			"required": false,
+			"state": false,
+			"system": false,
+			"type": "String",
+			"unique": false
+		}
+	],
+	"objectFolderExternalReferenceCode": "demo",
+	"objectLayouts": [
+	],
+	"objectViews": [
+	],
+	"panelCategoryKey": "site_administration.content",
+	"pluralLabel": {
+		"en_US": "Samples"
+	},
+	"portlet": true,
+	"scope": "site",
+	"system": false,
+	"titleObjectFieldName": "name"
+}
